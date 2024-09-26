@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contattaci</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="contactInfo">
+                <div>
+                    <h2>LT-STORE: CONTATTACI</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="location.png"></span>
+                            <span>Ferrara / S.M.Maddalena<br>
+                                Prodotti di marca a prezzi bassi.</span>
+                        </li>
+                        <li>
+                            <span><img src="mail.png"></span>
+                            <span>ltstore1019@gmail.com<br>
+                            contattateci a questa mail per eventuali domande.</span>
+                        </li>
+                        <li>
+                            <span><img src="call.png"></span>
+                            <span>T:(+39)331-554-7365<br>
+                            L:(+39)335-661-7823</span>
+                        </li>
+                        <li>
+                            <span><img src="pacco.png"></span>
+                            <span>Consegna entro 15/20 giorni.<br>
+                            Eventuali ritardi verranno comunicati.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h2> ORDINA PER EMAIL</h2>
+                <p>Vendiamo prodotti di marca: maglie e scarpe(anche da calcio), felpe, pantaloni, occhiali, orologi, borse e pochette. Puoi contattarci per richiedere informazioni o per effettuare un ordine. Compila le sezioni sottostanti e premi il tasto "Send" per inviare il messaggio alla nostra email.</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="formBox">
+                    <input type="hidden" name="access_key" value="1a2c7d20-0385-4067-943e-3188b6ddbce8">
+                    <div class="inputBox w50">
+                        <input type="text" name="Nome: " required>
+                        <span>Nome</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="Cognome: " required>
+                        <span>Cognome</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="Email: " required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="Telefono: " required>
+                        <span>Telefono</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="Messaggio: " required></textarea>
+                        <span>Il tuo ordine: modello?, taglia/numero?, indirizzo?</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
